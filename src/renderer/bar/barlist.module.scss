@@ -1,0 +1,13 @@
+.listWrap{
+  width: 60px;
+  height: 100vh;
+  border-right: 1px solid lightgray;
+}
+
+.barItem{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
