@@ -109,6 +109,7 @@
     }
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.4.6",
     "@sentry/react": "^7.22.0",
     "@sentry/tracing": "^7.22.0",
     "antd": "^5.0.2",

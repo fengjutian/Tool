@@ -7,6 +7,8 @@ import './App.css';
 import BarList from './bar/Barlist';
 import MainCanvas from './mainCanvas/MainCanvas';
 
+import Code from './code/Code';
+
 const Hello = () => {
   const methodDoesNotExist = () => {
     console.log('888');
@@ -15,7 +17,6 @@ const Hello = () => {
   return (
     <div>
       <MainCanvas />
-      {/* <BarList children={<MainCanvas />} /> */}
     </div>
   );
 };
@@ -25,6 +26,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Hello />} />
+        <Route path="/code" element={<Code />} />
       </Routes>
     </Router>
   );

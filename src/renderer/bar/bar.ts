@@ -1,5 +1,7 @@
 import {
   HomeOutlined,
+  SettingOutlined,
+  CodeSandboxOutlined
 } from '@ant-design/icons';
 
 export const bar = [
@@ -9,10 +11,10 @@ export const bar = [
   },
   {
     name: 'Code',
-    icon: HomeOutlined
+    icon: CodeSandboxOutlined
   },
   {
     name: '设置',
-    icon: HomeOutlined
+    icon: SettingOutlined
   }
 ]
